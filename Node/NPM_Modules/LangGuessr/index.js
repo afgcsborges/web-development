@@ -10,7 +10,6 @@ if (langCode === "und") {
         "SORRY, COULDN'T FIGURE IT OUT! TRY WITH MORE SAMPLE TEXT!".red
     );
 } else {
-    console.log(langCode);
     const language = langs.where("3", langCode);
     if (!language) {
         console.log(`Our best guess is: ${langCode}`.green);
