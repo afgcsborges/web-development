@@ -1,2 +1,2 @@
 # web-development
-Github repository for personal projects
+Github repository for Udemy Web Development Bootcamp.
