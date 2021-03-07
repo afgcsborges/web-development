@@ -12,7 +12,7 @@ if (langCode === "und") {
 } else {
     const language = langs.where("3", langCode);
     if (!language) {
-        console.log(`Our best guess is: ${langCode}`.green);
+        console.log(`Our best guess is: ${langCode}. This 3 digit code is not supported by this API.`.green);
     } else {
         console.log(`Our best guess is: ${language.name}`.green);
     }
