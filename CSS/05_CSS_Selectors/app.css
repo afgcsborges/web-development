@@ -11,11 +11,12 @@ button {
     background-color: #a8dadc;
 }
 
-h1,h2 {
+h1,
+h2 {
     color: #1d3557;
 }
 
-#signup{
+#signup {
     background-color: #1d3557;
     color: #f1faee;
 }
@@ -52,21 +53,19 @@ input[type="password"] {
     color: greenyellow;
 }
 
-a[href*="google"]{
+a[href*="google"] {
     color: #1d3557;
 }
-
 
 .post a:hover {
     text-decoration: underline;
 }
 
-
 .post button:active {
     background-color: #02c39a;
 }
 
-.post:nth-of-type(2n){
+.post:nth-of-type(2n) {
     background-color: #dfe8dc;
 }
 
